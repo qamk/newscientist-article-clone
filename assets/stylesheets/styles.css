@@ -1,0 +1,78 @@
+* {
+  outline: 1px solid red !important;
+}
+
+body {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 12px;
+}
+
+body > header, main, body > footer {
+  max-width: 82%;
+  margin: 0 auto;
+}
+
+.header-top-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.navbar-container {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar-container > ul > li {
+  float: left;
+  margin-left: 30px;
+  font-size: 1.3em;
+}
+
+.navbar-container > ul > li:first-child {
+  margin-left: 0;
+}
+
+.sign-in {
+  margin-left: auto;
+  margin-right: 35px;
+}
+
+.main-content-container {
+  display: flex;
+}
+
+.article-title {
+  font-size: 3em;
+  line-height: 0.8em;
+  margin-bottom: 0.5em;
+}
+
+.article-image-wrapper > img {
+  width: 97%;
+}
+
+article > p {
+  font-size: 1.2em;
+  line-height: 1.3em;
+  padding: 0.5em 0.8em 0.5em 0;
+}
+
+.aside-header-container {
+  font-size: 1.5em;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+div[class|=aside] > div[class=item] {
+  margin: 0 4px;
+}
+
+.trending-item-container {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.7em;
+}
