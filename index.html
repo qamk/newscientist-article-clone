@@ -4,9 +4,149 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/stylesheets/reset.css">
+  <link rel="stylesheet" href="assets/stylesheets/styles.css">
   <title>New Scientist Article Clone</title>
 </head>
 <body>
-  
+
+  <header>
+    <section class="header-top-container">
+      <div class="newletter-wrapper">
+        Sign up to our newsletter
+      </div>
+      <div class="brand-wrapper">
+        New Scientist
+      </div>
+      <div class="subscription-wrapper">
+        Subscribe
+      </div>
+    </section>
+
+    <nav class="navbar-container">
+      <ul>
+        <li>News</li>
+        <li>Podcast</li>
+        <li>Video</li>
+        <li>Technology</li>
+        <li id="active-subject">Space</li>
+        <li>Physics</li>
+        <li>Health</li>
+        <li>More</li>
+      </ul>
+      <button class="sign-in">Sign In</button>
+      <button>Search</button>
+    </nav>
+  </header>
+
+  <main class="main-content-container">
+    main-wrapper
+    <section class="article-container">
+      <header class="article-heading-container">
+        <div class="article-title-wrapper">
+          <h2>Ancient lake in Mars’s Gale crater may have actually been a small pond</h2>
+        </div>
+        <section class="share-buttons-container">
+          <button>Facebook</button>
+          <button>Twitter</button>
+          <button>Whatsapp</button>
+          <button>LinkedIn</button>
+          <button>Reddit</button>
+          <button>Email</button>
+          <button>Print</button>
+        </section>
+        <div class="timestamp-wrapper">
+          <p><span>SPACE</span> 6 August 2021</p>
+        </div>
+        <p>By <span id="author">Leah Crane</span></p>
+      </header>
+      <article>
+        <figure>
+          image goes here
+          <figcaption>
+            <strong>The rocks inside Gale crater hint there may not have been a large lake there after all</strong>
+            <span class="caption-text">NASA/JPL-Caltech/University of Arizona</span>
+          </figcaption>
+        </figure>
+        <p>
+          A purported ancient lake on Mars may have been far smaller than researchers thought. 
+          NASA’s Curiosity rover has been <a href="#">exploring Gale crater</a> for more than eight years, and while early observations 
+          suggested the entire crater may once have been filled with water, a new analysis implies that it just had a 
+          series of ponds instead.
+        </p>
+        <p>
+          Previous analyses of data from Curiosity have relied heavily on a measure called the chemical index of 
+          alteration to determine how rocks were weathered over time. <a href="#">Joseph Michalski</a> at the University of Hong Kong 
+          and his colleagues have suggested that because this measure was developed for use on Earth, it may not be 
+          valid in the extreme Martian climate.
+        </p>
+        <p>
+          Instead, they analysed the concentrations of various compounds that are expected to change based on different types of 
+          weathering over time. They found that some of the layers of rock Curiosity examined did interact with water at some point 
+          in their past, but more are likely to have formed outside of the water.
+        </p>
+        <div class="read-more-wrapper">
+          <p><strong>Read more:</strong><a href="#">Microbes burping methane on Mars may be right next to NASA rover</a></p>
+        </div>
+        <p>
+          “Over hundreds of metres of strata, it seems that the only layers that are demonstrably lacustrine [formed in a lake] are 
+          the lower few metres,” says Michalski. “Of the rocks visited by the rover… the fraction that is demonstrably lacustrine is 
+          something like 1 per cent.”
+        </p>
+        <p>
+          These rocks were mostly in the lowest few metres of <a href="#">sediments in the crater</a>, suggesting the lake was not nearly as deep or 
+          extensive as we thought. “There was likely a small lake or more likely a series of small lakes in the floor of Gale crater, 
+          but these were shallow ponds,” says Michalski.
+        </p>
+        <p>
+          The rocks that didn’t form in water appeared to be volcanic, so Michalski says that they may have formed out of ash from volcanic eruptions 
+          after the water in Gale crater had dried up. Observations by other Mars missions have hinted that these sediments were deposited by wind, 
+          not water, so this may solve that mismatch.
+        </p>
+        <p class="references">
+          <b>Journal Reference:</b> <i>Science Advances,</i> <a href="#">DOI: 10.1126/sciadv.abh2687</a>
+        </p>
+        <p>
+          <em>Sign up to our free <a href="#">Launchpad</a> newsletter for a voyage across the galaxy and beyond, every Friday</em>
+        </p>
+      </article>
+    </section>
+    <section class="aside-container">
+      <aside>
+        <div class="aside-header-container">
+          <div class="item">Trending</div>
+          <div class="item">Latest</div>
+          <div class="item">Video</div>
+          <div class="item">Free</div>
+        </div>
+        <div class="aside-content-container">
+          <div class="trending-item-container">
+            <h4>Something strange is sending radio waves from the centre of the galaxy</h4>
+            <span class="item-number">1</span>
+          </div>
+          <div class="trending-item-container">
+            <h4>Drug Treatment for Lyme disease could lead to its eradication</h4>
+            <span class="item-number">2</span>
+          </div>
+          <div class="trending-item-container">
+            <h4>Energy watchdog says net zero can protect against future price shocks</h4>
+            <span class="item-number">3</span>
+          </div>
+          <div class="trending-item-container">
+            <h4>Watch footage from inside category 4 hurricane</h4>
+            <span class="item-number">4</span>
+          </div>
+          <div class="trending-item-container">
+            <h4>Breadfruit could be the food of the future as climate warms</h4>
+            <span class="item-number">5</span>
+          </div>
+        </div>
+      </aside>
+    </section>
+  </main>
+
+  <footer>
+    footer
+  </footer>
 </body>
 </html>
