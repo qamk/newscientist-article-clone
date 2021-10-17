@@ -1,6 +1,6 @@
-* {
+/* * {
   outline: 1px solid red !important;
-}
+} */
 
 body {
   -webkit-box-sizing: border-box;
@@ -17,32 +17,68 @@ body > header, main, body > footer {
 .header-top-container {
   display: flex;
   justify-content: space-between;
-  margin: 20px 0;
+  margin: 1.6em 0;
 }
 
 .navbar-container {
   position: relative;
   display: flex;
   justify-content: space-between;
+  margin-bottom: 1.6em;
+  padding-bottom: 1em;
+  border-bottom: .5px solid #222;
 }
 
 .navbar-container > ul > li {
+  position: relative;
+  font-weight: 600;
+  background-color: #fff;
+  top: .22em;
   float: left;
-  margin-left: 30px;
   font-size: 1.3em;
+  margin-left: 1em;
+}
+
+.navbar-container > button {
+  font-size: 1.2em;
 }
 
 .navbar-container > ul > li:first-child {
   margin-left: 0;
 }
 
+#more::after {
+  content: "\27a0";
+  display: inline-block;
+  padding-left: 0.2em;
+  transform: rotate(90deg);
+}
+
+a {
+  color: #00b3e5;
+  text-decoration: none;
+}
+
+.navbar-container > button {
+  background: transparent;
+  border: none;
+}
+
 .sign-in {
   margin-left: auto;
-  margin-right: 35px;
+  margin-right: 25px;
 }
 
 .main-content-container {
   display: flex;
+}
+
+.article-heading-container {
+  margin: 2em 0;
+}
+
+.timestamp-wrapper {
+  margin: 1em 0;
 }
 
 .article-title {
@@ -55,10 +91,32 @@ body > header, main, body > footer {
   width: 97%;
 }
 
+figcaption {
+  line-height: 1.5em;
+}
+
 article > p {
-  font-size: 1.2em;
+  font-size: 1.3em;
+  color: #3b3b3b;
   line-height: 1.3em;
   padding: 0.5em 0.8em 0.5em 0;
+}
+
+.article-closing {
+  display: flex;
+  justify-content: space-around;
+}
+
+.new-issue {
+  display: flex;
+}
+
+strong, b {
+  font-weight: bold;
+}
+
+em, i:not([class|=icon]) {
+  font-style: italic;
 }
 
 .aside-header-container {
@@ -71,8 +129,52 @@ div[class|=aside] > div[class=item] {
   margin: 0 4px;
 }
 
+.aside-content-container {
+  color: #4d4d4d;
+}
+
 .trending-item-container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   font-size: 1.7em;
+  font-weight: 550;
+  margin-top: 0.5em;
+  background-color: #f5f5f5;
+  border-top: 3px solid #fff;
+}
+
+.item-number {
+  font-size: 1.5em;
+  font-weight: 600;
+  color: #00b3e5;
+}
+
+.read-more-wrapper {
+  background-color: #efefef;
+  margin: 1.5em 0;
+}
+
+.read-more-wrapper > p {
+  padding: 1em .5em;
+}
+
+.card-container {
+  float: left;
+  width: 23%;
+  border: 1px solid #00b3e5;
+  margin: 3em .5em;
+}
+
+.card {
+  height: 4em;
+  background-color: rgb(131, 202, 204);
+  margin-bottom: .5em;
+}
+
+.tag {
+  position: relative;
+  top: 0;
+  left: 0;
+  border: 2px solid rgb(190, 121, 190);
 }

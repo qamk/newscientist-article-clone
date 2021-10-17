@@ -13,13 +13,14 @@
   <header>
     <section class="header-top-container">
       <div class="newletter-wrapper">
-        Sign up to our newsletter
+        <p>NEWSLETTERS</p>
+        <p>Sign up to read our regular email newsletters</p>
       </div>
       <div class="brand-wrapper">
-        New Scientist
+        <span class="title">New Scientist</span>
       </div>
       <div class="subscription-wrapper">
-        Subscribe
+        <p>SUBSCRIBE AND SAVE xx%</p>
       </div>
     </section>
 
@@ -32,7 +33,12 @@
         <li id="active-subject">Space</li>
         <li>Physics</li>
         <li>Health</li>
-        <li>More</li>
+        <li id="more">More</li>
+        <li><a href="#">Shop</a></li>
+        <li><a href="#">Courses</a></li>
+        <li><a href="#">Events</a></li>
+        <li><a href="#">Tours</a></li>
+        <li><a href="#">Jobs</a></li>
       </ul>
       <button class="sign-in">Sign In</button>
       <button>Search</button>
@@ -55,15 +61,16 @@
           <button>Print</button>
         </section>
         <div class="timestamp-wrapper">
-          <p><span>SPACE</span> 6 August 2021</p>
+          <p><b>SPACE</b> 6 August 2021</p>
         </div>
-        <p>By <span id="author">Leah Crane</span></p>
+        <p>By <b><a href="#">Leah Crane</a></b></p>
       </header>
       <article>
         <figure class="article-image-wrapper">
           <img src="https://images.newscientist.com/wp-content/uploads/2021/08/06171920/06-aug_mars-sediments.jpg?width=778" alt="Gale crater rocks">
           <figcaption>
             <strong>The rocks inside Gale crater hint there may not have been a large lake there after all</strong>
+            <br>
             <span class="caption-text">NASA/JPL-Caltech/University of Arizona</span>
           </figcaption>
         </figure>
@@ -85,7 +92,7 @@
           in their past, but more are likely to have formed outside of the water.
         </p>
         <div class="read-more-wrapper">
-          <p><strong>Read more:</strong><a href="#">Microbes burping methane on Mars may be right next to NASA rover</a></p>
+          <p><strong>Read more: <a href="#">Microbes burping methane on Mars may be right next to NASA rover</a></strong></p>
         </div>
         <p>
           “Over hundreds of metres of strata, it seems that the only layers that are demonstrably lacustrine [formed in a lake] are 
@@ -108,6 +115,17 @@
         <p>
           <em>Sign up to our free <a href="#">Launchpad</a> newsletter for a voyage across the galaxy and beyond, every Friday</em>
         </p>
+        <section class="article-closing">
+          <p>Share buttons go here again</p>
+          <div class="new-issue">
+            <p>New issue!!!!!</p>
+            <ul>
+              <li><button>Subscribe</button></li>
+              <li><button>View in the app</button></li>
+              <li><button>Buy in print</button></li>
+            </ul>
+          </div>
+        </div>
       </article>
     </section>
     <section class="aside-container">
@@ -145,7 +163,39 @@
   </main>
 
   <footer>
-    footer
+    <h3>More from NewScientist</h3>
+    <div class="card-container">
+      <div class="card">
+        <div class="tag">
+          <p>Space</p>
+        </div>
+      </div>
+      <h4>Ancient Mars lake had fast-moving floods that carried huge boulders</h4>
+    </div>
+    <div class="card-container">
+      <div class="card">
+        <div class="tag">
+          <p>Space</p>
+        </div>
+      </div>
+      <h4>NASA's New Horizons spacecraft has found two odd pairs of asteroids</h4>
+    </div>
+    <div class="card-container">
+      <div class="card">
+        <div class="tag">
+          <p>Technology</p>
+        </div>
+      </div>
+      <h4>A maize meme shows why you shouldn't trust social media</h4>
+    </div>
+    <div class="card-container">
+      <div class="card">
+        <div class="tag">
+          <p>Humans</p>
+        </div>
+      </div>
+      <h4>The Apollo Murders review: Chris Hadfield's novel is a space thriller</h4>
+    </div>
   </footer>
 </body>
 </html>
