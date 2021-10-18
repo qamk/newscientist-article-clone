@@ -19,7 +19,7 @@ In other words, there was a lot about layouts. There was also opportunity to app
 ## How to run (local)
 I may create a github pages for this, but otherwise here's how to run it locally:
 1. Clone this repo (`git clone git@github.com:qamk/newscientist-article-clone.git`)
-2. Navigate into the folder (e.g. `cd git@github.com:qamk/newscientist-article-clone.git` or open the folder)
+2. Navigate into the folder (e.g. `cd newscientist-article-clone` or open the folder)
 3. Open the `index.html` file (in your browser)
 
 ## Discussion
